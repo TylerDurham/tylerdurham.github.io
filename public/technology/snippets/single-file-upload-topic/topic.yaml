@@ -1,0 +1,77 @@
+kind: AdaptiveDialog
+modelDisplayName: Single File Upload
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    triggerQueries:
+      - upload a file
+      - send a document
+      - attach a file
+      - submit one file
+      - add single file
+      - upload my resume
+      - share a photo
+      - send one attachment
+      - upload document
+
+  actions:
+    - kind: Question
+      id: question_FZCnDG
+      interruptionPolicy:
+        allowInterruption: true
+
+      variable: init:Topic.fUploadedFile
+      prompt: Please upload your file.
+      entity:
+        kind: FilePrebuiltEntity
+        includeFileMetadata: true
+
+    - kind: InvokeConnectorAction
+      id: invokeConnectorAction_NPtADj
+      input:
+        binding:
+          file: =Topic.fUploadedFile.Content
+          folderPath: /
+          name: =Topic.fUploadedFile.Name
+
+      output:
+        kind: SingleVariableOutputBinding
+        variable: Topic.CreateFile
+
+      connectionReference: auto_agent_olA4x.shared_onedriveforbusiness.shared-onedriveforbu-e686c543-9e3f-4020-ba44-774134e12196
+      connectionProperties:
+        name: auto_agent_olA4x.shared_onedriveforbusiness.shared-onedriveforbu-e686c543-9e3f-4020-ba44-774134e12196
+        mode: Invoker
+
+      operationId: CreateFile
+
+    - kind: InvokeConnectorAction
+      id: invokeConnectorAction_5vwEdk
+      input:
+        binding:
+          path: =Topic.CreateFile.Path
+          scope: Organization
+          type: View
+
+      output:
+        kind: SingleVariableOutputBinding
+        variable: Topic.CreateShareLinkByPathV2
+
+      connectionReference: auto_agent_olA4x.shared_onedriveforbusiness.shared-onedriveforbu-e686c543-9e3f-4020-ba44-774134e12196
+      connectionProperties:
+        name: auto_agent_olA4x.shared_onedriveforbusiness.shared-onedriveforbu-e686c543-9e3f-4020-ba44-774134e12196
+        mode: Invoker
+
+      operationId: CreateShareLinkByPathV2
+
+    - kind: SendActivity
+      id: sendActivity_paMWu2
+      activity: |-
+        File **{Topic.CreateFile.DisplayName}** 
+        uploaded! You can check it out here:
+
+        {Topic.CreateShareLinkByPathV2.WebUrl}
+
+inputType: {}
+outputType: {}

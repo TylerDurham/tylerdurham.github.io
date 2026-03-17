@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bits &amp; Being</title>
+    <link>https://TylerDurham.github.io/bits-n-being/</link>
+    <description>Recent content on Bits &amp; Being</description>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Feb 2026 22:05:43 -0600</lastBuildDate>
+    <atom:link href="https://TylerDurham.github.io/bits-n-being/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collect Feedback: Adaptive Card</title>
+      <link>https://TylerDurham.github.io/bits-n-being/technology/snippets/collect-feedback-adaptive-card/</link>
+      <pubDate>Wed, 25 Feb 2026 22:05:43 -0600</pubDate>
+      <guid>https://TylerDurham.github.io/bits-n-being/technology/snippets/collect-feedback-adaptive-card/</guid>
+      <description>Provides an adaptive card for collecting simple feedback.</description>
+    </item>
+    <item>
+      <title>Collect Feedback: Copilot Studio Topic</title>
+      <link>https://TylerDurham.github.io/bits-n-being/technology/snippets/collect-feedback-topic/</link>
+      <pubDate>Wed, 25 Feb 2026 22:05:43 -0600</pubDate>
+      <guid>https://TylerDurham.github.io/bits-n-being/technology/snippets/collect-feedback-topic/</guid>
+      <description>Provides a Copilot Studio topic for collecting simple feedback and then logging to Azure Application Insights.</description>
+    </item>
+    <item>
+      <title>A Beginning</title>
+      <link>https://TylerDurham.github.io/bits-n-being/spiritual/beginning/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://TylerDurham.github.io/bits-n-being/spiritual/beginning/</guid>
+      <description>Why write about spiritual things in a public space?</description>
+    </item>
+    <item>
+      <title>Hello, World</title>
+      <link>https://TylerDurham.github.io/bits-n-being/technology/hello-world/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://TylerDurham.github.io/bits-n-being/technology/hello-world/</guid>
+      <description>Getting this blog off the ground and the tools behind it.</description>
+    </item>
+  </channel>
+</rss>
