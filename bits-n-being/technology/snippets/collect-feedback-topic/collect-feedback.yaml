@@ -1,0 +1,127 @@
+kind: AdaptiveDialog
+modelDescription: "This topic can handle queries like these: give feedback, share my thoughts, leave a comment, submit feedback, provide input"
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent: {}
+  actions:
+    - kind: AdaptiveCardPrompt
+      id: d1aSE1
+      interruptionPolicy:
+        allowInterruption: false
+        interruptionTopicListFilter:
+          kind: IncludeSelectedTopics
+
+      card: |-
+        {
+          "type": "AdaptiveCard",
+          "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+          "version": "1.5",
+          "actions": [
+            {
+              "type": "Action.Submit",
+              "title": "👍 Looks Good!",
+              "data": {
+                "Like": true
+              }
+            },
+            {
+              "type": "Action.Submit",
+              "title": "👎 Needs Work.",
+              "data": {
+                "Like": false
+              }
+            }
+          ],
+          "body": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "url": "https://github.com/CopilotSWATTeam/copilot-studio-patterns/blob/main/icons/Duckppuccin.png?raw=true",
+                      "altText": "Duckpuccin Logo.",
+                      "width": "50px"
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                },
+                {
+                  "type": "Column",
+                  "width": "stretch",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "How did we do?",
+                      "wrap": true,
+                      "style": "heading",
+                      "color": "Accent"
+                    }
+                  ],
+                  "verticalContentAlignment": "Center"
+                }
+              ]
+            },
+            {
+              "type": "Input.Text",
+              "placeholder": "Feel free to leave a comment!",
+              "id": "Comments",
+              "isMultiline": true
+            }
+          ]
+        }
+      output:
+        binding:
+          actionSubmitId: Topic.actionSubmitId
+          Comments: Topic.Comments
+          Like: Topic.Like
+          MessageEvent: Topic.MessageEvent
+
+      outputType:
+        properties:
+          actionSubmitId: String
+          Comments: String
+          Like: Boolean
+          MessageEvent: String
+
+    - kind: SetVariable
+      id: setVariable_rLWc3n
+      variable: Topic.FeedbackData
+      value: |-
+        ={
+            ConversationId: System.Conversation.Id,
+            UserId: System.User.PrincipalName,
+            Like: Topic.Like,
+            Comments: Topic.Comments,
+            EnvironmentId: System.Bot.EnvironmentId
+        }
+
+    - kind: LogCustomTelemetryEvent
+      id: wYqdz2
+      eventName: =Topic.MessageEvent
+      properties: =Topic.FeedbackData
+
+    - kind: ConditionGroup
+      id: conditionGroup_7rSQGR
+      conditions:
+        - id: conditionItem_8qaCiE
+          condition: =Topic.Like = true
+          actions:
+            - kind: SendActivity
+              id: dEboJg
+              activity: We're glad you are enjoying {System.Bot.Name}! We appreciate your feedback!
+
+      elseActions:
+        - kind: SendActivity
+          id: cNgtzU
+          activity: We're sorry you had a poor experience, but a huge thanks for your feedback!
+
+    - kind: CancelAllDialogs
+      id: 4FZOJP
+
+inputType: {}
+outputType: {}

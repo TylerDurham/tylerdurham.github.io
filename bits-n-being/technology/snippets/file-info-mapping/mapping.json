@@ -1,0 +1,516 @@
+[
+  {
+    "MimeType": "application/octet-stream",
+    "Extension": "bin",
+    "Description": "Binary File",
+    "Icon": "file.png"
+  },
+  {
+    "MimeType": "text/plain",
+    "Extension": "txt",
+    "Description": "Text Document",
+    "Icon": "text.png"
+  },
+  {
+    "MimeType": "text/html",
+    "Extension": "html",
+    "Description": "HTML Document",
+    "Icon": "html.png"
+  },
+  {
+    "MimeType": "application/xhtml+xml",
+    "Extension": "xhtml",
+    "Description": "XHTML Document",
+    "Icon": "html.png"
+  },
+  {
+    "MimeType": "text/css",
+    "Extension": "css",
+    "Description": "CSS Stylesheet",
+    "Icon": "css.png"
+  },
+  {
+    "MimeType": "text/csv",
+    "Extension": "csv",
+    "Description": "CSV (Comma-Separated Values)",
+    "Icon": "csv.png"
+  },
+  {
+    "MimeType": "text/tab-separated-values",
+    "Extension": "tsv",
+    "Description": "TSV (Tab-Separated Values)",
+    "Icon": "csv.png"
+  },
+  {
+    "MimeType": "text/markdown",
+    "Extension": "md",
+    "Description": "Markdown Document",
+    "Icon": "markdown.png"
+  },
+  {
+    "MimeType": "text/xml",
+    "Extension": "xml",
+    "Description": "XML File",
+    "Icon": "xml.png"
+  },
+  {
+    "MimeType": "application/xml",
+    "Extension": "xml",
+    "Description": "XML File",
+    "Icon": "xml.png"
+  },
+  {
+    "MimeType": "application/x-yaml",
+    "Extension": "yml",
+    "Description": "YAML File",
+    "Icon": "yaml.png"
+  },
+  {
+    "MimeType": "text/yaml",
+    "Extension": "yml",
+    "Description": "YAML File",
+    "Icon": "yaml.png"
+  },
+  {
+    "MimeType": "application/json",
+    "Extension": "json",
+    "Description": "JSON File",
+    "Icon": "json.png"
+  },
+  {
+    "MimeType": "application/ld+json",
+    "Extension": "jsonld",
+    "Description": "JSON-LD File",
+    "Icon": "json.png"
+  },
+  {
+    "MimeType": "application/geo+json",
+    "Extension": "geojson",
+    "Description": "GeoJSON File",
+    "Icon": "json.png"
+  },
+  {
+    "MimeType": "application/pdf",
+    "Extension": "pdf",
+    "Description": "PDF Document",
+    "Icon": "pdf.png"
+  },
+  {
+    "MimeType": "application/rtf",
+    "Extension": "rtf",
+    "Description": "Rich Text Format",
+    "Icon": "text.png"
+  },
+  {
+    "MimeType": "application/msword",
+    "Extension": "doc",
+    "Description": "Word Document (Legacy)",
+    "Icon": "word.png"
+  },
+  {
+    "MimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "Extension": "docx",
+    "Description": "Word Document",
+    "Icon": "word.png"
+  },
+  {
+    "MimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
+    "Extension": "dotx",
+    "Description": "Word Template",
+    "Icon": "word.png"
+  },
+
+  {
+    "MimeType": "application/vnd.ms-excel",
+    "Extension": "xls",
+    "Description": "Excel Workbook (Legacy)",
+    "Icon": "excel.png"
+  },
+  {
+    "MimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "Extension": "xlsx",
+    "Description": "Excel Workbook",
+    "Icon": "excel.png"
+  },
+  {
+    "MimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.template",
+    "Extension": "xltx",
+    "Description": "Excel Template",
+    "Icon": "excel.png"
+  },
+  {
+    "MimeType": "application/vnd.ms-excel.sheet.macroEnabled.12",
+    "Extension": "xlsm",
+    "Description": "Excel Macro-Enabled Workbook",
+    "Icon": "excel.png"
+  },
+
+  {
+    "MimeType": "application/vnd.ms-powerpoint",
+    "Extension": "ppt",
+    "Description": "PowerPoint Presentation (Legacy)",
+    "Icon": "powerpoint.png"
+  },
+  {
+    "MimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "Extension": "pptx",
+    "Description": "PowerPoint Presentation",
+    "Icon": "powerpoint.png"
+  },
+  {
+    "MimeType": "application/vnd.openxmlformats-officedocument.presentationml.template",
+    "Extension": "potx",
+    "Description": "PowerPoint Template",
+    "Icon": "powerpoint.png"
+  },
+  {
+    "MimeType": "application/vnd.ms-powerpoint.presentation.macroEnabled.12",
+    "Extension": "pptm",
+    "Description": "PowerPoint Macro-Enabled Presentation",
+    "Icon": "powerpoint.png"
+  },
+  {
+    "MimeType": "application/onenote",
+    "Extension": "one",
+    "Description": "OneNote Notebook Section",
+    "Icon": "onenote.png"
+  },
+  {
+    "MimeType": "application/vnd.oasis.opendocument.text",
+    "Extension": "odt",
+    "Description": "OpenDocument Text",
+    "Icon": "document.png"
+  },
+  {
+    "MimeType": "application/vnd.oasis.opendocument.spreadsheet",
+    "Extension": "ods",
+    "Description": "OpenDocument Spreadsheet",
+    "Icon": "spreadsheet.png"
+  },
+  {
+    "MimeType": "application/vnd.oasis.opendocument.presentation",
+    "Extension": "odp",
+    "Description": "OpenDocument Presentation",
+    "Icon": "presentation.png"
+  },
+  {
+    "MimeType": "application/vnd.apple.pages",
+    "Extension": "pages",
+    "Description": "Apple Pages Document",
+    "Icon": "document.png"
+  },
+  {
+    "MimeType": "application/vnd.apple.numbers",
+    "Extension": "numbers",
+    "Description": "Apple Numbers Spreadsheet",
+    "Icon": "spreadsheet.png"
+  },
+  {
+    "MimeType": "application/vnd.apple.keynote",
+    "Extension": "key",
+    "Description": "Apple Keynote Presentation",
+    "Icon": "presentation.png"
+  },
+  {
+    "MimeType": "message/rfc822",
+    "Extension": "eml",
+    "Description": "Email Message (EML)",
+    "Icon": "email.png"
+  },
+  {
+    "MimeType": "application/vnd.ms-outlook",
+    "Extension": "msg",
+    "Description": "Outlook Message (MSG)",
+    "Icon": "email.png"
+  },
+  {
+    "MimeType": "application/zip",
+    "Extension": "zip",
+    "Description": "ZIP Archive",
+    "Icon": "zip.png"
+  },
+  {
+    "MimeType": "application/x-zip-compressed",
+    "Extension": "zip",
+    "Description": "ZIP Archive",
+    "Icon": "zip.png"
+  },
+  {
+    "MimeType": "application/x-7z-compressed",
+    "Extension": "7z",
+    "Description": "7-Zip Archive",
+    "Icon": "zip.png"
+  },
+  {
+    "MimeType": "application/x-rar-compressed",
+    "Extension": "rar",
+    "Description": "RAR Archive",
+    "Icon": "zip.png"
+  },
+  {
+    "MimeType": "application/gzip",
+    "Extension": "gz",
+    "Description": "GZip Archive",
+    "Icon": "zip.png"
+  },
+  {
+    "MimeType": "application/x-tar",
+    "Extension": "tar",
+    "Description": "TAR Archive",
+    "Icon": "zip.png"
+  },
+  {
+    "MimeType": "image/png",
+    "Extension": "png",
+    "Description": "PNG Image",
+    "Icon": "image.png"
+  },
+  {
+    "MimeType": "image/jpeg",
+    "Extension": "jpg",
+    "Description": "JPEG Image",
+    "Icon": "image.png"
+  },
+  {
+    "MimeType": "image/jpg",
+    "Extension": "jpg",
+    "Description": "JPEG Image",
+    "Icon": "image.png"
+  },
+  {
+    "MimeType": "image/gif",
+    "Extension": "gif",
+    "Description": "GIF Image",
+    "Icon": "image.png"
+  },
+  {
+    "MimeType": "image/webp",
+    "Extension": "webp",
+    "Description": "WebP Image",
+    "Icon": "image.png"
+  },
+  {
+    "MimeType": "image/bmp",
+    "Extension": "bmp",
+    "Description": "Bitmap Image",
+    "Icon": "image.png"
+  },
+  {
+    "MimeType": "image/tiff",
+    "Extension": "tif",
+    "Description": "TIFF Image",
+    "Icon": "image.png"
+  },
+  {
+    "MimeType": "image/svg+xml",
+    "Extension": "svg",
+    "Description": "SVG Vector Image",
+    "Icon": "image.png"
+  },
+  {
+    "MimeType": "image/heic",
+    "Extension": "heic",
+    "Description": "HEIC Image",
+    "Icon": "image.png"
+  },
+  {
+    "MimeType": "image/heif",
+    "Extension": "heif",
+    "Description": "HEIF Image",
+    "Icon": "image.png"
+  },
+  {
+    "MimeType": "image/x-icon",
+    "Extension": "ico",
+    "Description": "Icon File",
+    "Icon": "image.png"
+  },
+
+  // Audio
+  {
+    "MimeType": "audio/mpeg",
+    "Extension": "mp3",
+    "Description": "MP3 Audio",
+    "Icon": "audio.png"
+  },
+  {
+    "MimeType": "audio/mp4",
+    "Extension": "m4a",
+    "Description": "M4A Audio",
+    "Icon": "audio.png"
+  },
+  {
+    "MimeType": "audio/wav",
+    "Extension": "wav",
+    "Description": "WAV Audio",
+    "Icon": "audio.png"
+  },
+  {
+    "MimeType": "audio/x-wav",
+    "Extension": "wav",
+    "Description": "WAV Audio",
+    "Icon": "audio.png"
+  },
+  {
+    "MimeType": "audio/ogg",
+    "Extension": "ogg",
+    "Description": "Ogg Audio",
+    "Icon": "audio.png"
+  },
+  {
+    "MimeType": "audio/aac",
+    "Extension": "aac",
+    "Description": "AAC Audio",
+    "Icon": "audio.png"
+  },
+  {
+    "MimeType": "audio/flac",
+    "Extension": "flac",
+    "Description": "FLAC Audio",
+    "Icon": "audio.png"
+  },
+  {
+    "MimeType": "video/mp4",
+    "Extension": "mp4",
+    "Description": "MP4 Video",
+    "Icon": "video.png"
+  },
+  {
+    "MimeType": "video/mpeg",
+    "Extension": "mpeg",
+    "Description": "MPEG Video",
+    "Icon": "video.png"
+  },
+  {
+    "MimeType": "video/quicktime",
+    "Extension": "mov",
+    "Description": "QuickTime Video",
+    "Icon": "video.png"
+  },
+  {
+    "MimeType": "video/x-msvideo",
+    "Extension": "avi",
+    "Description": "AVI Video",
+    "Icon": "video.png"
+  },
+  {
+    "MimeType": "video/x-matroska",
+    "Extension": "mkv",
+    "Description": "Matroska Video",
+    "Icon": "video.png"
+  },
+  {
+    "MimeType": "video/webm",
+    "Extension": "webm",
+    "Description": "WebM Video",
+    "Icon": "video.png"
+  },
+
+  // Code / configs (common uploads)
+  {
+    "MimeType": "application/javascript",
+    "Extension": "js",
+    "Description": "JavaScript File",
+    "Icon": "code.png"
+  },
+  {
+    "MimeType": "text/javascript",
+    "Extension": "js",
+    "Description": "JavaScript File",
+    "Icon": "code.png"
+  },
+  {
+    "MimeType": "application/typescript",
+    "Extension": "ts",
+    "Description": "TypeScript File",
+    "Icon": "code.png"
+  },
+  {
+    "MimeType": "text/x-python",
+    "Extension": "py",
+    "Description": "Python Script",
+    "Icon": "code.png"
+  },
+  {
+    "MimeType": "text/x-java-source",
+    "Extension": "java",
+    "Description": "Java Source File",
+    "Icon": "code.png"
+  },
+  {
+    "MimeType": "text/x-c",
+    "Extension": "c",
+    "Description": "C Source File",
+    "Icon": "code.png"
+  },
+  {
+    "MimeType": "text/x-c++",
+    "Extension": "cpp",
+    "Description": "C++ Source File",
+    "Icon": "code.png"
+  },
+  {
+    "MimeType": "application/x-sh",
+    "Extension": "sh",
+    "Description": "Shell Script",
+    "Icon": "code.png"
+  },
+  {
+    "MimeType": "text/x-shellscript",
+    "Extension": "sh",
+    "Description": "Shell Script",
+    "Icon": "code.png"
+  },
+  {
+    "MimeType": "application/x-bat",
+    "Extension": "bat",
+    "Description": "Batch File",
+    "Icon": "code.png"
+  },
+  {
+    "MimeType": "text/x-log",
+    "Extension": "log",
+    "Description": "Log File",
+    "Icon": "text.png"
+  },
+
+  // Fonts
+  {
+    "MimeType": "font/ttf",
+    "Extension": "ttf",
+    "Description": "TrueType Font",
+    "Icon": "font.png"
+  },
+  {
+    "MimeType": "font/otf",
+    "Extension": "otf",
+    "Description": "OpenType Font",
+    "Icon": "font.png"
+  },
+  {
+    "MimeType": "font/woff",
+    "Extension": "woff",
+    "Description": "Web Open Font (WOFF)",
+    "Icon": "font.png"
+  },
+  {
+    "MimeType": "font/woff2",
+    "Extension": "woff2",
+    "Description": "Web Open Font (WOFF2)",
+    "Icon": "font.png"
+  },
+
+  // Common “download” / binary office-related
+  {
+    "MimeType": "application/vnd.ms-cab-compressed",
+    "Extension": "cab",
+    "Description": "CAB Archive",
+    "Icon": "zip.png"
+  },
+  {
+    "MimeType": "application/x-msdownload",
+    "Extension": "exe",
+    "Description": "Windows Executable",
+    "Icon": "app.png"
+  }
+]

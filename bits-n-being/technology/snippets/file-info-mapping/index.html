@@ -1,0 +1,526 @@
+<!doctype html><html lang=en dir=auto data-theme=auto><head><script src="/bits-n-being/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=bits-n-being/livereload" data-no-instant defer></script><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="noindex, nofollow"><title>File Info Mapping | Bits & Being</title><meta name=keywords content><meta name=description content="Optional notes or explanation here."><meta name=author content="Tyler"><link rel=canonical href=http://localhost:1313/bits-n-being/technology/snippets/file-info-mapping/><link crossorigin=anonymous href=/bits-n-being/assets/css/stylesheet.82de0ae3c592b69e8d85a812087727b647ef013b73b93e6927e649d6b7930e41.css integrity="sha256-gt4K48WStp6NhagSCHcntkfvATtzuT5pJ+ZJ1reTDkE=" rel="preload stylesheet" as=style><link rel=icon href=http://localhost:1313/bits-n-being/favicon.ico><link rel=icon type=image/png sizes=16x16 href=http://localhost:1313/bits-n-being/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=http://localhost:1313/bits-n-being/favicon-32x32.png><link rel=apple-touch-icon href=http://localhost:1313/bits-n-being/apple-touch-icon.png><link rel=mask-icon href=http://localhost:1313/bits-n-being/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=http://localhost:1313/bits-n-being/technology/snippets/file-info-mapping/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script></head><body id=top><header class=header><nav class=nav><div class=logo><a href=http://localhost:1313/bits-n-being/ accesskey=h title="Bits & Being (Alt + H)">Bits & Being</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
+<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=http://localhost:1313/bits-n-being/technology/ title=Technology><span>Technology</span></a></li><li><a href=http://localhost:1313/bits-n-being/technology/snippets/ title=Snippets><span>Snippets</span></a></li><li><a href=http://localhost:1313/bits-n-being/spiritual/ title=Spiritual><span>Spiritual</span></a></li><li><a href=http://localhost:1313/bits-n-being/tags/ title=Tags><span>Tags</span></a></li><li><a href=http://localhost:1313/bits-n-being/archives/ title=Archives><span>Archives</span></a></li><li><a href=http://localhost:1313/bits-n-being/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li></ul></nav></header><main class=main><article class=snippet-single><header class=snippet-header><nav class=breadcrumbs aria-label=breadcrumb><a href=http://localhost:1313/bits-n-being/>Home</a>
+<span aria-hidden=true>/ </span><a href=/bits-n-being/technology/snippets/>Snippets</a>
+<span aria-hidden=true>/ </span><span>File Info Mapping</span></nav><h1 class=snippet-title>File Info Mapping</h1><div class=snippet-meta><span class=snippet-lang-badge>python</span>
+<span class=snippet-date>Mar 7, 2026</span></div></header><div class="snippet-notes post-content"><p>Optional notes or explanation here.</p></div><div class=snippet-files><div class=code-file><div class=code-file-header><span class=code-file-name>mapping.json</span></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none><code class=language-json data-lang=json><span style=display:flex><span>[
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/octet-stream&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;bin&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Binary File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;file.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;text/plain&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;txt&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Text Document&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;text.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;text/html&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;html&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;HTML Document&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;html.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/xhtml+xml&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;xhtml&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;XHTML Document&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;html.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;text/css&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;css&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;CSS Stylesheet&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;css.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;text/csv&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;csv&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;CSV (Comma-Separated Values)&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;csv.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;text/tab-separated-values&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;tsv&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;TSV (Tab-Separated Values)&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;csv.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;text/markdown&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;md&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Markdown Document&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;markdown.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;text/xml&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;xml&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;XML File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;xml.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/xml&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;xml&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;XML File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;xml.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/x-yaml&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;yml&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;YAML File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;yaml.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;text/yaml&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;yml&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;YAML File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;yaml.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/json&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;json&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;JSON File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;json.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/ld+json&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;jsonld&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;JSON-LD File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;json.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/geo+json&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;geojson&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;GeoJSON File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;json.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/pdf&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;pdf&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;PDF Document&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;pdf.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/rtf&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;rtf&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Rich Text Format&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;text.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/msword&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;doc&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Word Document (Legacy)&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;word.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.openxmlformats-officedocument.wordprocessingml.document&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;docx&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Word Document&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;word.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.openxmlformats-officedocument.wordprocessingml.template&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;dotx&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Word Template&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;word.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.ms-excel&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;xls&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Excel Workbook (Legacy)&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;excel.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;xlsx&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Excel Workbook&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;excel.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.openxmlformats-officedocument.spreadsheetml.template&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;xltx&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Excel Template&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;excel.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.ms-excel.sheet.macroEnabled.12&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;xlsm&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Excel Macro-Enabled Workbook&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;excel.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.ms-powerpoint&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;ppt&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;PowerPoint Presentation (Legacy)&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;powerpoint.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.openxmlformats-officedocument.presentationml.presentation&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;pptx&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;PowerPoint Presentation&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;powerpoint.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.openxmlformats-officedocument.presentationml.template&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;potx&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;PowerPoint Template&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;powerpoint.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.ms-powerpoint.presentation.macroEnabled.12&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;pptm&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;PowerPoint Macro-Enabled Presentation&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;powerpoint.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/onenote&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;one&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;OneNote Notebook Section&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;onenote.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.oasis.opendocument.text&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;odt&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;OpenDocument Text&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;document.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.oasis.opendocument.spreadsheet&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;ods&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;OpenDocument Spreadsheet&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;spreadsheet.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.oasis.opendocument.presentation&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;odp&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;OpenDocument Presentation&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;presentation.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.apple.pages&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;pages&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Apple Pages Document&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;document.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.apple.numbers&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;numbers&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Apple Numbers Spreadsheet&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;spreadsheet.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.apple.keynote&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;key&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Apple Keynote Presentation&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;presentation.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;message/rfc822&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;eml&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Email Message (EML)&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;email.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.ms-outlook&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;msg&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Outlook Message (MSG)&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;email.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/zip&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;zip&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;ZIP Archive&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;zip.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/x-zip-compressed&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;zip&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;ZIP Archive&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;zip.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/x-7z-compressed&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;7z&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;7-Zip Archive&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;zip.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/x-rar-compressed&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;rar&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;RAR Archive&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;zip.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/gzip&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;gz&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;GZip Archive&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;zip.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/x-tar&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;tar&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;TAR Archive&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;zip.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;image/png&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;png&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;PNG Image&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;image.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;image/jpeg&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;jpg&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;JPEG Image&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;image.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;image/jpg&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;jpg&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;JPEG Image&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;image.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;image/gif&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;gif&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;GIF Image&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;image.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;image/webp&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;webp&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;WebP Image&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;image.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;image/bmp&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;bmp&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Bitmap Image&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;image.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;image/tiff&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;tif&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;TIFF Image&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;image.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;image/svg+xml&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;svg&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;SVG Vector Image&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;image.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;image/heic&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;heic&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;HEIC Image&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;image.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;image/heif&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;heif&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;HEIF Image&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;image.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;image/x-icon&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;ico&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Icon File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;image.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// Audio
+</span></span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;audio/mpeg&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;mp3&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;MP3 Audio&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;audio.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;audio/mp4&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;m4a&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;M4A Audio&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;audio.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;audio/wav&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;wav&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;WAV Audio&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;audio.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;audio/x-wav&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;wav&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;WAV Audio&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;audio.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;audio/ogg&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;ogg&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Ogg Audio&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;audio.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;audio/aac&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;aac&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;AAC Audio&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;audio.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;audio/flac&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;flac&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;FLAC Audio&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;audio.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;video/mp4&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;mp4&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;MP4 Video&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;video.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;video/mpeg&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;mpeg&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;MPEG Video&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;video.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;video/quicktime&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;mov&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;QuickTime Video&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;video.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;video/x-msvideo&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;avi&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;AVI Video&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;video.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;video/x-matroska&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;mkv&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Matroska Video&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;video.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;video/webm&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;webm&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;WebM Video&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;video.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// Code / configs (common uploads)
+</span></span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/javascript&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;js&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;JavaScript File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;code.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;text/javascript&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;js&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;JavaScript File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;code.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/typescript&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;ts&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;TypeScript File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;code.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;text/x-python&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;py&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Python Script&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;code.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;text/x-java-source&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;java&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Java Source File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;code.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;text/x-c&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;c&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;C Source File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;code.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;text/x-c++&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;cpp&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;C++ Source File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;code.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/x-sh&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;sh&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Shell Script&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;code.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;text/x-shellscript&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;sh&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Shell Script&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;code.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/x-bat&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;bat&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Batch File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;code.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;text/x-log&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;log&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Log File&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;text.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// Fonts
+</span></span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;font/ttf&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;ttf&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;TrueType Font&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;font.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;font/otf&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;otf&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;OpenType Font&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;font.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;font/woff&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;woff&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Web Open Font (WOFF)&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;font.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;font/woff2&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;woff2&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Web Open Font (WOFF2)&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;font.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e>// Common “download” / binary office-related
+</span></span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/vnd.ms-cab-compressed&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;cab&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;CAB Archive&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;zip.png&#34;</span>
+</span></span><span style=display:flex><span>  },
+</span></span><span style=display:flex><span>  {
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;MimeType&#34;</span>: <span style=color:#e6db74>&#34;application/x-msdownload&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Extension&#34;</span>: <span style=color:#e6db74>&#34;exe&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Description&#34;</span>: <span style=color:#e6db74>&#34;Windows Executable&#34;</span>,
+</span></span><span style=display:flex><span>    <span style=color:#f92672>&#34;Icon&#34;</span>: <span style=color:#e6db74>&#34;app.png&#34;</span>
+</span></span><span style=display:flex><span>  }
+</span></span><span style=display:flex><span>]
+</span></span></code></pre></div></div></div></article></main><footer class=footer><span>&copy; 2026 <a href=http://localhost:1313/bits-n-being/>Bits & Being</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>
