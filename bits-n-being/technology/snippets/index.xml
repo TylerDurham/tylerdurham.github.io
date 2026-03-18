@@ -6,8 +6,23 @@
     <description>Recent content in Snippets on Bits &amp; Being</description>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Feb 2026 22:05:43 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 19:01:56 -0500</lastBuildDate>
     <atom:link href="https://TylerDurham.github.io/bits-n-being/technology/snippets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Single File Upload Topic</title>
+      <link>https://TylerDurham.github.io/bits-n-being/technology/snippets/single-file-upload-topic/</link>
+      <pubDate>Mon, 09 Mar 2026 19:01:56 -0500</pubDate>
+      <guid>https://TylerDurham.github.io/bits-n-being/technology/snippets/single-file-upload-topic/</guid>
+      <description>&lt;p&gt;A basic Copilot Studio Topic that allows the user to upload a single file. The file is
+saved to the user&amp;rsquo;s OneDrive for Business, and a share link is generated.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Handle File Upload Topic</title>
+      <link>https://TylerDurham.github.io/bits-n-being/technology/snippets/handle-file-upload-topic/</link>
+      <pubDate>Sat, 07 Mar 2026 20:26:20 -0600</pubDate>
+      <guid>https://TylerDurham.github.io/bits-n-being/technology/snippets/handle-file-upload-topic/</guid>
+      <description>&lt;p&gt;Optional notes or explanation here.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Collect Feedback: Adaptive Card</title>
       <link>https://TylerDurham.github.io/bits-n-being/technology/snippets/collect-feedback-adaptive-card/</link>
